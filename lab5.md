@@ -20,7 +20,7 @@ This lab report will go over on how to debug an error in a coding scenario and r
 <img src="JUnit_Error.png" width="800" height="200"/>
 
 #### **Output In the Terminal:** <br />
-<img src="junit1.png" width="700" height="200"/>
+<img src="junit1.png" width="700" height="300"/>
 
 ### **Student's Post Analysis**
 After observing the code and screenshots of the student's error, the symptom, bug, and failure-inducing inputs are found. 
