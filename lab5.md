@@ -42,10 +42,10 @@ $ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 $ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
 ```
 the tests have all passed as shown in the terminal output. <br /> 
-<img src="compile2.png" width="800" height="200"/>
+<img src="compile2.png" width="800" height="150"/>
 
 The JUnit tests have passed within the code as well, with the errors now being solved. <br />  
-<img src="success.png" width="750" height="500"/>
+<img src="success.png" width="750" height="600"/>
 
 ### **Information For SetUp:**
 #### **File/Directory:** 
