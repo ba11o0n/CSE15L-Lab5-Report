@@ -6,7 +6,7 @@ This lab report will go over on how to debug an error in a coding scenario and r
 <img src="thread.png" width="580" height="490"/>
 
 ### **Errors/Symptoms**
-***Reversed Method From ArrayExamples.java file*** <br />
+**Reversed Method From ArrayExamples.java file** <br />
 <img src="method.png" width="700" height="240"/>
 
 #### **Tests in JUnit** <br />
