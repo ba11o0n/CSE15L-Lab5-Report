@@ -6,5 +6,5 @@ This lab report will go over on how to debug an error in a coding scenario and r
 <img src="thread.png" width="650" height="600"/>
 
 ### Errors/Symptoms 
-Reversed Method From ArrayExamples.java file 
+Reversed Method From ArrayExamples.java file <br />
 <img src="method.png" width="400" height="300"/>
