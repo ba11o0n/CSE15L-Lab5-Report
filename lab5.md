@@ -7,7 +7,7 @@ This lab report will go over on how to debug an error in a coding scenario and r
 
 ### **Errors/Symptoms**
 ***Reversed Method From ArrayExamples.java file*** <br />
-<img src="method.png" width="700" height="200"/>
+<img src="method.png" width="700" height="240"/>
 
 ***Tests in JUnit*** <br />
 1. Error in testReversed2 <br />
@@ -33,6 +33,6 @@ After observing the code and screenshots of the student's error, the symptom, bu
 The Problem: After checking your reversed method in ArrayExamples.java, it is true that this method takes in inputs in the type of an integer array only as your parameter has stated ```int[] arr```. In addition, your return statement is returning the wrong array in line 25 within the reversed method. 
 
 #### ****Resolution:****
-1. ***First Error:*** you have passed in the wrong argument for reversed method. Because your reversed method in ArrayExamples.java stated that the parameter is `int[]` as its type, the elements of `{3.0, 2.0, 1.0}` are all doubles. Instead, try `{3, 2, 1}` and make sure to also change the element type in your expected value when calling assertArrayEquals. <br /> <img src="line20.png" width="700" height="200"/>
-2. ***Second Error:*** Regarding the second error, the arguments you passed inside the testReverse2 were elements of a double. In line 25,  Although you have changed the error in the for loop to assign the new elements of the newly created that is named as `newArray` to hold elements from the condition embedded for the input array `arr`, you did not update the return statement outside of the for loop. Instead of `return arr` in line 25, you should change it to `return newArray` as it is the newly created int[] that holds the elements in the order that the method has intended to do. <br /> <img src="line25.png" width="700" height="200"/>
+1. ***First Error:*** you have passed in the wrong argument for reversed method. Because your reversed method in ArrayExamples.java stated that the parameter is `int[]` as its type, the elements of `{3.0, 2.0, 1.0}` are all doubles. Instead, try `{3, 2, 1}` and make sure to also change the element type in your expected value when calling assertArrayEquals. <br /> <img src="line20.png" width="700" height="240"/>
+2. ***Second Error:*** Regarding the second error, the arguments you passed inside the testReverse2 were elements of a double. In line 25,  Although you have changed the error in the for loop to assign the new elements of the newly created that is named as `newArray` to hold elements from the condition embedded for the input array `arr`, you did not update the return statement outside of the for loop. Instead of `return arr` in line 25, you should change it to `return newArray` as it is the newly created int[] that holds the elements in the order that the method has intended to do. <br /> <img src="line25.png" width="700" height="240"/>
 
