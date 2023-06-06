@@ -99,6 +99,10 @@ which then produces the errors in the tests (failed).
       ```java
       return newArray; 
       ```
+    <br />
+    
+    
+  
 ## Reflection 
 Something that have always been helpful for me was learning the different shortcut linux commands. It is very useful when I code as I can easily see where I am at and how I can see contents of a specific file just by inputting certain commands into the terminal. For example in this lab assignment, I was not able to run any of my files for the lab 3 folder. However, I used what I learned in class and did: 
 1. cd
