@@ -69,7 +69,7 @@ which then produces the errors in the tests (failed).
 1. The argument being passed in for testReversed2 within ArrayTests.java should be integer type instead of double type. 
    * ##### **Error:** 
       * 1st Prolem: Type Mismatch 
-      Line 35
+      on Line 35
       ```java
       int[] item = {3.0, 2.0, 1.0}; 
       ```
