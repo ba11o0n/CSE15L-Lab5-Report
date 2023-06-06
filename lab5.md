@@ -118,7 +118,7 @@ This inspired me to learn more commands because it is very time efficient when I
    * Correct syntax: `locate -i to_Find` if you are searching with one word, `locate -i to_Find*to_Find` if you are searching using two words 
 * du command 
    * This command allows you to see the amount of space a file or a directory takes up. 
-   * Correct syntax: du /home/user/Documents
+   * Correct syntax: `du /home/user/Documents`
    * Using -m will provide the information for the folder and file in MB 
    * Using k will display the information in KB 
    * Using -h will show the last time stamp the folders and files were modified 
