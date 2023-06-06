@@ -66,7 +66,7 @@ $ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 which then produces the errors in the tests (failed). 
 
 #### **Approach to the Problem**
-1. The argument being passed in for testReversed2 within ArrayTests.java should be integer type instead of double type. 
+1. The argument being passed in for testReversed2 within ArrayTests.java should be integer type instead of double type in lines 35 and 36. Also, the reversed method in ArrayExamples.java should return newArray in line 25. 
    * ##### **Error:** 
       **1st Problem: Type Mismatch** <br />
       Line 35
@@ -99,4 +99,26 @@ which then produces the errors in the tests (failed).
       ```java
       return newArray; 
       ```
-2. The return statement in ArrayExamples.java within the reversed method in line 25 should be `return newArray`. 
+## Reflection 
+Something that have always been helpful for me was learning the different shortcut linux commands. It is very useful when I code as I can easily see where I am at and how I can see contents of a specific file just by inputting certain commands into the terminal. For example in this lab assignment, I was not able to run any of my files for the lab 3 folder. However, I used what I learned in class and did: 
+1. cd
+2. ls 
+3. cd Downloads 
+4. cd lab3-main
+5. ls 
+
+Then after these commands, I was able to run my ArrayTests.java. This is a longer approach due to the reason that I download the zip file from GitHub instead of using the existing file from GitHubt deskstop that I already have created and altered for lab 3's week. 
+
+This inspired me to learn more commands because it is very time efficient when I can just do things straight from the terminal instead of closing and opening tabs and doing a lot of clicking with my track pad. Several of very useful commands that I have used are: 
+* mv command 
+   * This command allows you to rename a file. 
+   * Correct syntax: `mv old_filename.txt new_filename.txt`
+* locate command 
+   * This command allows you to find any file in the database. By using -i after the command will help with case sensitivity.
+   * Correct syntax: `locate -i to_Find` if you are searching with one word, `locate -i to_Find*to_Find` if you are searching using two words 
+* du command 
+   * This command allows you to see the amount of space a file or a directory takes up. 
+   * Correct syntax: du /home/user/Documents
+   * Using -m will provide the information for the folder and file in MB 
+   * Using k will display the information in KB 
+   * Using -h will show the last time stamp the folders and files were modified 
