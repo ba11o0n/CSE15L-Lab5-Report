@@ -68,8 +68,7 @@ which then produces the errors in the tests (failed).
 #### **Approach to the Problem**
 1. The argument being passed in for testReversed2 within ArrayTests.java should be integer type instead of double type. 
    * ##### **Error:** 
-      ###### **1st Prolem: Type Mismatch**
-      <br />
+      **1st Problem: Type Mismatch**
       Line 35
       ```java
       int[] item = {3.0, 2.0, 1.0}; 
@@ -78,8 +77,7 @@ which then produces the errors in the tests (failed).
       ```java
       assertArrayEquals(new int[]{1.0, 2.0, 3.0}, ArrayExamples.reversed(item));
       ```
-      ###### **2nd Problem: Tests Failed** 
-      <br />
+      **2nd Problem: Tests Failed** 
       Line 25
       ```java
       return arr; 
