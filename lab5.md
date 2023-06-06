@@ -49,7 +49,7 @@ The JUnit tests have passed within the code as well, with the errors now being s
 <img src="success.png" width="750" height="700"/>
 
 ### **Information For SetUp:**
-## ** File/Directory: 
+#### **File/Directory:** 
 * The directory that was used is from `/GitHub/lab3`
 * Two java files that will help approach this problem is ArrayExamples.java and ArrayTests.java for the setup. 
   * `ArrayExamples.java`: This file has the methods that was called when testing in the ArrayTests.java, specifically reverseing methods. 
