@@ -3,7 +3,7 @@ This lab report will go over on how to debug an error in a coding scenario and r
 
 ## **Debugging Scenario**
 ### Student Post: 
-<img src="thread.png" width="750" height="700"/>
+<img src="thread.png" width="650" height="600"/>
 
 ### **Errors/Symptoms**
 ***Reversed Method From ArrayExamples.java file*** <br />
