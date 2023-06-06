@@ -50,6 +50,7 @@ The JUnit tests have passed within the code as well, with the errors now being s
 
 ### **Information For SetUp:**
 ## ** File/Directory: 
+* The directory that was used is from `/GitHub/lab3`
 * Two java files that will help approach this problem is ArrayExamples.java and ArrayTests.java for the setup. 
-  * hsbwjsbw
-* 
+  * `ArrayExamples.java`: This file has the methods that was called when testing in the ArrayTests.java, specifically reverseing methods. 
+  * `ArrayTests.java`: This file has all the testers, implementing different testing scenarios to see if the reverse methods from ArrayExamples.java induce the correct expected output as intended. 
