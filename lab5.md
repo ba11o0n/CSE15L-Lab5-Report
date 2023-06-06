@@ -16,3 +16,5 @@ Tests in JUnit <br />
 Problem: Error Message in JUnit Testing <br />
 <img src="JUnit_Error.png" width="800" height="200"/>
 
+Output In the Terminal: 
+
