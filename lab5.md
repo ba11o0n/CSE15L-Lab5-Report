@@ -26,5 +26,8 @@ This lab report will go over on how to debug an error in a coding scenario and r
 ### Student's Post Analysis
 After observing the code and screenshots of the student's error, the symptom, bug, and failure-inducing inputs are found. 
 - [ ] ***Symptom:*** 1: There is a type mismatch as the method reversed cannot convert the data input from a double[] to int[]. 2: The expected output does not match the actual output after the method reversed is being called. 
-- [ ] ***Bug:*** The bug stems from line 
-- [ ] Try different commands and learn what they do 
+- [ ] ***Bug:*** The bug stems from line 25.
+- [ ] ***Failure-Inducing Input:*** comes from the tester file of JUnit in the testReversed 2 and testReversed3. 
+
+### Response from a TA: 
+After checking your reversed() method in ArrayExamples.java, it is true that this method takes in inputs in the type of an integer array only as your parameter has stated ```java int[] arr```.
