@@ -72,7 +72,7 @@ which then produces the errors in the tests (failed).
    ```java
    int[] item = {3.0, 2.0, 1.0}; 
    ```
-   <span style="background-color: #FF0000">line 36</span> 
+   <span style="background-color: red">line 36</span> 
    ```java
    assertArrayEquals(new int[]{1.0, 2.0, 3.0}, ArrayExamples.reversed(item));
    ```
