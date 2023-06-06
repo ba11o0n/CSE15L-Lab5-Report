@@ -11,7 +11,7 @@ This lab report will go over on how to debug an error in a coding scenario and r
 
 #### **Tests in JUnit** <br />
 1. Error in testReversed2 <br />
-<img src="reverse2.png" width="800" height="500"/>
+<img src="reverse2.png" width="780" height="480"/>
 
 2. Error in testReversed3 <br />
 <img src="reverse3.png" width="800" height="500"/>
