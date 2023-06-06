@@ -20,8 +20,7 @@ This lab report will go over on how to debug an error in a coding scenario and r
 <img src="JUnit_Error.png" width="800" height="200"/>
 
 #### **Output In the Terminal:** <br />
-<img src="command.png" width="800" height="150"/>
-<img src="compile.png" width="800" height="400"/>
+<img src="junit1.png" width="700" 
 
 ### **Student's Post Analysis**
 After observing the code and screenshots of the student's error, the symptom, bug, and failure-inducing inputs are found. 
@@ -60,4 +59,22 @@ The JUnit tests have passed within the code as well, with the errors now being s
 * Errors in the specific tests within ArrayTests.java <br /> <img src="testing.png" width="800" height="480"/>
 
 #### **Compile/Commands
-* Compiling the files with 
+* Compiling the files with JUnit commands 
+```java
+$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+``` 
+which then produces the errors in the tests (failed). 
+
+#### **Approach to the Problem**
+1. The argument being passed in for testReversed2 within ArrayTests.java should be integer type instead of double type. 
+   * ##### **Error:** <br />
+   <span style="background-color: #FF0000">line 36</span> 
+   ```java
+   int[] item = {3.0, 2.0, 1.0}; 
+   ```
+   <span style="background-color: #FF0000">line 36</span> 
+   ```java
+   assertArrayEquals(new int[]{1.0, 2.0, 3.0}, ArrayExamples.reversed(item));
+   ```
+   * 
+3. The return statement in ArrayExamples.java within the reversed method in line 25 should be `return newArray`. 
