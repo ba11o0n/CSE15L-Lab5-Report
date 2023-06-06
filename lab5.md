@@ -9,6 +9,10 @@ This lab report will go over on how to debug an error in a coding scenario and r
 Reversed Method From ArrayExamples.java file <br />
 <img src="method.png" width="700" height="300"/>
 
-Tests for JUnit <br />
+Tests in JUnit <br />
 <img src="reverse2.png" width="800" height="500"/>
 <img src="reverse3.png" width="800" height="500"/>
+
+Problem: Error Message in JUnit Testing <br />
+<img src="JUnit.png" width="800" height="200"/>
+
