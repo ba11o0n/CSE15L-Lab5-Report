@@ -57,4 +57,4 @@ The JUnit tests have passed within the code as well, with the errors now being s
 
 #### **Related Contents of Errors:** 
 * ArrayExamples.java file containing reversed method to debug <br /> <img src="highlight_method.png" width="700" height="240"/>
-* Errors in the specific tests within ArrayTests.java <br /> <img src="testing.png" width="700" height="600"/>
+* Errors in the specific tests within ArrayTests.java <br /> <img src="testing.png" width="800" height="600"/>
