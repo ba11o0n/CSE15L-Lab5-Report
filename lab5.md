@@ -8,3 +8,7 @@ This lab report will go over on how to debug an error in a coding scenario and r
 ### Errors/Symptoms 
 Reversed Method From ArrayExamples.java file <br />
 <img src="method.png" width="700" height="300"/>
+
+Tests for JUnit <br />
+<img src="reverse2.png" width="700" height="500"/>
+<img src="reverse3.png" width="700" height="500"/>
