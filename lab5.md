@@ -68,7 +68,7 @@ which then produces the errors in the tests (failed).
 #### **Approach to the Problem**
 1. The argument being passed in for testReversed2 within ArrayTests.java should be integer type instead of double type. 
    * ##### **Error:** <br />
-   <span style="color:blue"> *line 35* </span>
+   <span style="color:blue">some *blue* text</span>.
    ```java
    int[] item = {3.0, 2.0, 1.0}; 
    ```
