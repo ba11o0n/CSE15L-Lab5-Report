@@ -58,7 +58,7 @@ The JUnit tests have passed within the code as well, with the errors now being s
 * ArrayExamples.java file containing reversed method to debug <br /> <img src="highlight_method.png" width="700" height="240"/>
 * Errors in the specific tests within ArrayTests.java <br /> <img src="testing.png" width="800" height="480"/>
 
-#### **Compile/Commands
+#### **Compile/Commands**
 * Compiling the files with JUnit commands 
 ```java
 $ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
@@ -103,7 +103,7 @@ which then produces the errors in the tests (failed).
     
     
   
-## Reflection 
+## **Reflection**
 Something that have always been helpful for me was learning the different shortcut linux commands. It is very useful when I code as I can easily see where I am at and how I can see contents of a specific file just by inputting certain commands into the terminal. For example in this lab assignment, I was not able to run any of my files for the lab 3 folder. However, I used what I learned in class and did: 
 1. cd
 2. ls 
