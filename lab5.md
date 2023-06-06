@@ -17,5 +17,5 @@ Problem: Error Message in JUnit Testing <br />
 <img src="JUnit_Error.png" width="800" height="200"/>
 
 Output In the Terminal: <br />
-<img src="command.png" width="800" height="200"/>
+<img src="command.png" width="800" height="150"/>
 <img src="compile.png" width="800" height="400"/>
