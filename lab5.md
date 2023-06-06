@@ -10,5 +10,5 @@ Reversed Method From ArrayExamples.java file <br />
 <img src="method.png" width="700" height="300"/>
 
 Tests for JUnit <br />
-<img src="reverse2.png" width="700" height="500"/>
-<img src="reverse3.png" width="700" height="500"/>
+<img src="reverse2.png" width="800" height="500"/>
+<img src="reverse3.png" width="800" height="500"/>
