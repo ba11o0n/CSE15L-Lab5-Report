@@ -14,5 +14,5 @@ Tests in JUnit <br />
 <img src="reverse3.png" width="800" height="500"/>
 
 Problem: Error Message in JUnit Testing <br />
-<img src="JUnit.png" width="800" height="200"/>
+<img src="JUnit_Error.png" width="800" height="200"/>
 
