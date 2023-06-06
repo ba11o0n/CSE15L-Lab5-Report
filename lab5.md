@@ -54,3 +54,7 @@ The JUnit tests have passed within the code as well, with the errors now being s
 * Two java files that will help approach this problem is ArrayExamples.java and ArrayTests.java for the setup. 
   * `ArrayExamples.java`: This file has the methods that was called when testing in the ArrayTests.java, specifically reverseing methods. 
   * `ArrayTests.java`: This file has all the testers, implementing different testing scenarios to see if the reverse methods from ArrayExamples.java induce the correct expected output as intended. 
+
+#### **Related Contents of Errors:** 
+* ArrayExamples.java file containing reversed method to debug <br /> <img src="highlight_method.png" width="700" height="240"/>
+* Errors in the specific tests within ArrayTests.java <br /> <img src="testing.png" width="700" height="400"/>
