@@ -45,7 +45,7 @@ the tests have all passed as shown in the terminal output. <br />
 <img src="compile2.png" width="800" height="200"/>
 
 The JUnit tests have passed within the code as well, with the errors now being solved. <br />  
-<img src="success.png" width="750" height="700"/>
+<img src="success.png" width="750" height="600"/>
 
 ### **Information For SetUp:**
 #### **File/Directory:** 
